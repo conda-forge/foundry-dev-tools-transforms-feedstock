@@ -1,5 +1,5 @@
 {% set name = "foundry-dev-tools-transforms" %}
-{% set version = "2.0.1" %}
+{% set version = "2.1.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/foundry_dev_tools_transforms-{{ version }}.tar.gz
-  sha256: 94d1fd0062b9b62a602a61788aef34e2786fda83df2f5df414106914ee6126e7
+  sha256: b2f3e499c022ec40a23b9cdf26a6508da842cc0dd5482c2a4f05bda95c78cbdd
 
 build:
   noarch: python
