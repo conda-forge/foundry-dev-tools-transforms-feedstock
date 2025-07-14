@@ -1,6 +1,6 @@
 {% set python_min = "3.10" %}
 {% set name = "foundry-dev-tools-transforms" %}
-{% set version = "2.1.18" %}
+{% set version = "2.1.19" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/foundry_dev_tools_transforms-{{ version }}.tar.gz
-  sha256: 9ef5dc6d7f3ecd5df4e6064c5919213fc3685344191f72c15d394d1072cf8664
+  sha256: 091cda5381e2c8d715ad51d28cf790077838820a80cb2c292ed6b09441af7335
 
 build:
   noarch: python
